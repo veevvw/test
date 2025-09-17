@@ -31,7 +31,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Baghdad")
     # set this with required zed repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/dev-source1/Tep"
+        "UPSTREAM_REPO", "https://github.com/veevvw/test"
     )
     # External plugins repo
     EXTERNAL_REPO = os.environ.get("EXTERNAL_REPO", None)
@@ -73,7 +73,7 @@ class Config(object):
     CUSTOM_PMPERMIT = os.environ.get("CUSTOM_PMPERMIT", None)
     ZELZAL_Z = int(2198209125)
     PING_TEXT = os.environ.get("PING_TEXT", None)
-    ZELZAL_A = os.environ.get("ZELZAL_A", "@Matrixao")
+    ZELZAL_A = os.environ.get("ZELZAL_A", "@l_samx")
     ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
     BOT_PIC = os.environ.get("BOT_PIC", None)
     ZED_MEDIA = os.environ.get("ZED_MEDIA", None)
